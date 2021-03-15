@@ -1,5 +1,5 @@
 #language : pt
-@trocasedevoluções 
+@trocas_e_devoluções 
 Funcionalidade: Cancelar
 
    @cancelar
