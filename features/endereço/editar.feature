@@ -1,5 +1,5 @@
 #language : pt
-@enderecoeditar
+@endereco
 Funcionalidade: Editar
 
 

@@ -1,6 +1,6 @@
 #language : pt
 
-@informaçõesdeconta
+@informações_de_conta
 Funcionalidade: Alterar 
 
   @alterar

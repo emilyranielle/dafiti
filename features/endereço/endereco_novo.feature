@@ -1,5 +1,5 @@
 #language : pt
-@endereconovo
+@endereco
 Funcionalidade: Endereço
 
 

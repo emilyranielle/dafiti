@@ -1,5 +1,5 @@
 #language : pt
-@adicionar_ao_carrinho
+@produtos
 Funcionalidade: Adicionar
   
     @cenario_carrinho

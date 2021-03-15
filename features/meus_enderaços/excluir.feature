@@ -1,5 +1,5 @@
 #language : pt
-@meusendereços
+@meus_endereços
 Funcionalidade: Excluir
 
    @cenario_endereco_excluir

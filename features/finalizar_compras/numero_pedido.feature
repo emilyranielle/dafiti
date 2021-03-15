@@ -1,5 +1,5 @@
 #language : pt
-@finalzizarcompras
+@finalzizar_compras
 Funcionalidade: Finalizar pedido
 
     @cenario_confirmação

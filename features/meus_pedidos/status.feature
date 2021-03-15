@@ -1,5 +1,5 @@
 #language : pt
-@meusPedidos 
+@meus_pedidos 
 Funcionalidade: Status
 
    @status

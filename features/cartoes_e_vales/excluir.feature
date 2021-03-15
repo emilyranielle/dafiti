@@ -1,5 +1,5 @@
 #language : pt
-@cartoesevales
+@cartoes_e_vales
 Funcionalidade: Excluir
 
    @cenario_excluir

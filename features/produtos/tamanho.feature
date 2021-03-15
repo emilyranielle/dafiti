@@ -1,5 +1,5 @@
 #language : pt
-@tamanho
+@produtos
 Funcionalidade: Tamanho
      
      @cenario_tam

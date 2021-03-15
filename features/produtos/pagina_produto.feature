@@ -1,5 +1,5 @@
 #language : pt
-@paginaproduto
+@produtos
 Funcionalidade: Produto
      
      @cenario_prod
