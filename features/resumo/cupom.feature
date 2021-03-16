@@ -6,7 +6,7 @@ Funcionalidade: Cupom
     Cenario: Validar cupom
         Dado que esteja dentro do periodo de uso
         Quando informar o cupom 
-        Então deverá exibir cupom válido
+        Então deverá ser aplicado o desconto do cupom
 
          
     @validar_excepition
