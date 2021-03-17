@@ -1,5 +1,5 @@
 #language : pt
-@trocas_e_devoluções 
+@trocas_e_devolucoes 
 Funcionalidade: Trocas e devoluções
 
    @devolver_produto
