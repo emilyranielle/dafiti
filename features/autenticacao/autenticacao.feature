@@ -1,6 +1,6 @@
 #language : pt
 
-@autenticação
+@autenticacao
 Funcionalidade: Autenticação
 
   @login

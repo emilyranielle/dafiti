@@ -1,6 +1,6 @@
 #language : pt
 @resumo
-Funcionalidade: Cupom
+Funcionalidade: Resumo
 
     @validar_cupom
     Cenario: Validar cupom

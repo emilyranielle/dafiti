@@ -1,16 +1,18 @@
 #language : pt
 @pagamento
-Funcionalidade: Pagamento CD
+Funcionalidade: Pagamento
+
+   Contexto: Débito
+      Dado que esteja válido
   
-   @cd_cenario
-   Cenário: Utilizar o Cartão de débito
-      Dado que esteja valido
+   @cartao_debito
+   Cenário: Cartão de débito
       Quando selecionar a opção cartão de débito
-      E preencher os dados válidos 
+      E preencher os dados  
       Então deverá seguir para o resumo da compra
     
-   @cd_exception
-   Esquema do Cenário: Utilizar o Cartão de débito exception
+   @cartao_debito_exception
+   Esquema do Cenário: Cartão de débito exception
       Quando selecionar a opção cartão de débito
       E preencher os dados inválidos  <tipo>
       Então deverá exibir a mensagem <erro>

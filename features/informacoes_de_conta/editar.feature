@@ -1,20 +1,20 @@
 #language : pt
 
-@informações_de_conta
-Funcionalidade: Editar
+@informacoes_de_conta
+Funcionalidade: Informações de conta
 
-  @editar
+  Contexto: login
+   Dado que esteja logado
+
+  @editar_conta
   Cenario: Editar conta
-     Dado que esteja cadastrado
-     Quando selecionar a opção de edição
-     E informar os dados válidos
+     Quando editar dados da conta
      Então deverá ser editado
 
       
-  @esquema_editar
-  Esquema do Cenário: Editar conta
-        Quando selecionar a opção de edição
-        E informar os dados invalidos <falha>
+  @editar_conta_exception
+  Esquema do Cenário: Editar conta exception
+        Quando editar dados da conta com falha <falha>
         Então deverá exibir a mensagem  <erro>
 
        Exemplos: 

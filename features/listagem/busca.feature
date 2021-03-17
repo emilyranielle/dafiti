@@ -1,19 +1,21 @@
 #language : pt
-@Busca
-Funcionalidade: Busca
+@listagem
+Funcionalidade: Listagem
+
+   Contexto: busca
+   Dado que esteja na home
      
-     @cenario_busca
-     Cenario: Realizar busca
-         Dado que esteja na home
-         Quando realizar uma busca por um item 
-         Então deverá exibir a informação do produto 
+   @realizar_busca
+   Cenario: Realizar busca
+     Quando realizar busca por produto 
+     Então deverá exibir as informações do produto 
 
-  @esquema_login
-  Esquema do Cenário: busca exception
-       Quando realizar uma busca por um item inexistente
-       Então deverá exibir a mensagem de erro  <erro>
+   @busca_exception
+   Esquema do Cenário: busca exception
+     Quando realizar busca por item inexistente
+     Então deverá exibir a mensagem de erro  <erro>
 
-       Exemplos: 
+      Exemplos: 
 
-         |         erro                    |
-         |    nenhum resultado encontrado  |
+          |         erro                    |
+          |    nenhum resultado encontrado  |

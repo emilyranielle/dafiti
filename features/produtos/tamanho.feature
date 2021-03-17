@@ -1,11 +1,11 @@
 #language : pt
 @produtos
-Funcionalidade: Tamanho
+Funcionalidade: Produtos
      
-     @cenario_tam
+     @selecao_tamanho
      Cenario: Seleção de tamanho
-         Dado que esteja nas informações do produto
-         Quando selecionar um produto 
-         Então deverá informar o tamanho do produto escolhido
+         Dado que esteja na pagina produto
+         Quando selecionar o primeiro tamanho  
+         Então deverá selecionar o tamanho escolhido
 
          

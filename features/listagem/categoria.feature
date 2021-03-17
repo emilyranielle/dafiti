@@ -1,9 +1,9 @@
 
 #language : pt
-@categoria
-Funcionalidade: Categoria
+@listagem
+Funcionalidade: Listagem
      
-     @cenario_cat
+     @navegar_por_categorias
      Cenario: Navegar por categorias
          Dado que esteja na home
          Quando selecionar a primeira categoria 

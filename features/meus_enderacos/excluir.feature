@@ -1,8 +1,8 @@
 #language : pt
-@meus_endereços
-Funcionalidade: Excluir
+@meus_enderecos
+Funcionalidade: Meus endereços
 
-   @cenario_endereco_excluir
+   @realizar_exclusao
    Cenário: Realizar exclusão 
       Dado que possua endereço cadastrado
       Quando escolher a opção excluir

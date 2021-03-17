@@ -1,16 +1,20 @@
 #language : pt
-@cadastro
-Funcionalidade: Cadastro
+@autenticacao
+Funcionalidade: Autenticação
 
-  @cadastrando
+
+  Contexto: Aba Pessoa Física
+    Dado que esteja na página de cadastro
+    E que esteja na aba PF
+
+  @realizar_cadastro_pf
   Cenario: Realizar cadastro pf
-    Dado que esteja na aba de pessoa física
     Quando realizar o cadastro com as informações necessárias 
     Então deverá exibir a informação de dados cadastrados
 
          
 
-  @esquema_cadastro_pf
+  @realizar_cadastro_pf_exception
   Esquema do Cenário: realizar cadastro pf exception
     Quando realizar o cadastro com dados inválidos <tipo>
     Então deverá exibir a mensagem  <erro>
@@ -28,13 +32,19 @@ Funcionalidade: Cadastro
 
 
 
-  @cadastro_PJ
+
+
+ Contexto: Aba Pessoa Jurídica
+    Dado que esteja na página de cadastro
+    E que esteja na aba PJ
+
+
+  @realizar_cadastro_pj
    Cenário: Realizar cadastro de pj
-    Dado que esteja na aba de pessoa jurídica
     Quando realizar o cadastro com as informações necessárias 
     Então deverá exibir a informação de dados cadastrados
     
-  @cadastro__PJ_exception
+  @realizar_cadastro_pj_exception
   Esquema do Cenário: realizar cadastro pf exception
     Quando realizar o cadastro com dados inválidos <tipo>
     Então deverá exibir a mensagem  <erro>

@@ -1,10 +1,10 @@
 
 #language : pt
-@home
-Funcionalidade: Home
+@listagem
+Funcionalidade: Listagem
      
-     @cenario_home
-     Cenario: Pagina inicial
+     @home
+     Cenario: home
          Dado que esteja na home
          Então deverá retornar para página inicial.
 

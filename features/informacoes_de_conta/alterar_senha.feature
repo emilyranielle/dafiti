@@ -1,19 +1,22 @@
 #language : pt
 
-@informações_de_conta
-Funcionalidade: Alterar 
+@informacoes_de_conta
+Funcionalidade: Informações de conta
 
-  @alterar
+
+  Contexto: Senha
+   Dado que esteja logado
+
+  @alterar_senha
   Cenario: Alterar senha
-     Dado que esteja cadastrado
-     Quando selecionar a opção alterar senha
-     E informar os dados válidos
+     Quando editar senha
+     E informar os dados 
      Então deverá ser alterado
 
       
-  @esquema_alterar
-  Esquema do Cenário: Alterar senha
-        Quando selecionar a opção alterar senha
+  @alterar_senha_exception
+  Esquema do Cenário: Alterar senha exception
+        Quando editar senha
         E informar os dados invalidos <falha>
         Então deverá exibir a mensagem  <erro>
 
@@ -24,3 +27,8 @@ Funcionalidade: Alterar
          | Senha atual invalida                 |  Senha inválida                                       |
          | Senha digitada errada na confirmação |Certifique-se de que as senhas informadas são idênticas|
          | senha curta                          |Mínimo 8 caracteres                                    |
+
+
+    
+
+  

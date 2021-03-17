@@ -1,9 +1,16 @@
 #language : pt
 @meus_pedidos
-Funcionalidade: Rastreio
+Funcionalidade: Meus pedidos
+
+
+   Contexto: Rastreio
+      Dado que esteja em Meus Pedidos
    
-   @rastreio
+   @verificar_rastreio
    Cenário: Verificar rastreio
-      Dado que esteja na aba meus pedidos
-      Quando selecionar um pedido
+      Quando selecionar o primeiro pedido
       Então deverá exibir o rastreio
+
+
+   
+   

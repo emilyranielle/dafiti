@@ -1,8 +1,8 @@
 #language : pt
 @entrega
-Funcionalidade: Opção de entrega
+Funcionalidade: Entrega
  
-    @cenario_entrega
+    @selecionar_opcoes_de_entrega
     Cenário: Selecionar opções de entrega
         Dado que esteja na aba opções de entrega
         Quando selecionar a categoria

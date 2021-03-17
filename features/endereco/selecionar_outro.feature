@@ -1,10 +1,11 @@
 #language : pt
 @endereco
-Funcionalidade: Mudar
+Funcionalidade: Endereço
 
 
-   @cenario_endereco_outro
+   @realizar_mudanca
    Cenário: Realizar mudança
       Dado que esteja cadastrado
-      Quando selecionar um endereço já cadastrado
+      Quando escolher selecionar outro endereço
+      E selecionar o primeiro
       Então deverá mudar para o endereço escolhido

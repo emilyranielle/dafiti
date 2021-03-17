@@ -1,16 +1,17 @@
 #language : pt
 @endereco
 Funcionalidade: Endereço
+   
+   Contexto: Editar
+      Dado que esteja cadastrado
 
-
-   @cenario_endereco_novo
-   Cenário: Realizar cadastro endereço
-      Dado que esteja válido
-      Quando preencher o cadastro com dados validos
-      Então deverá exibir endereço cadastro
+   @realizar_edicao_cadastro
+   Cenário: Realizar edição cadastro
+      Quando preencher o cadastro com dados 
+      Então deverá exibir endereço editado
     
-   @endereco_exception
-   Esquema do Cenário: Realizar cadastro endereço exception
+   @realizar_edicao_cadastro_exception
+   Esquema do Cenário: Realizar edição cadastro exception
       Quando preencher o cadastro com dados inválidos <tipo>
       Então deverá exibir <erro>
 

@@ -1,16 +1,18 @@
 #language : pt
-@meus_endereços
-Funcionalidade: Endereço
+@meus_enderecos
+Funcionalidade: Meus endereços
 
 
-   @cenario_endereco_novo
-   Cenário: Realizar cadastro endereço
+   Contexto: Edição
       Dado que esteja válido
-      Quando preencher o cadastro com dados validos
+
+   @cadastrar_novo_endereco
+   Cenário: Cadastrar novo endereço
+      Quando preencher o cadastro com dados 
       Então deverá exibir endereço cadastro
     
-   @endereco_exception
-   Esquema do Cenário: Realizar cadastro endereço exception
+   @cadastrar_novo_endereco_exception
+   Esquema do Cenário: Cadastrar novo endereço exception
       Quando preencher o cadastro com dados inválidos <tipo>
       Então deverá exibir <erro>
 

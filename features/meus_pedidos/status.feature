@@ -1,9 +1,12 @@
 #language : pt
 @meus_pedidos 
-Funcionalidade: Status
+Funcionalidade: Meus pedidos
 
-   @status
+   Contexto: Status
+      Dado que esteja em Meus Pedidos
+
+
+   @verificar_status
    Cenário: Verificar status
-      Dado que esteja na aba meus pedidos
-      Quando selecionar um pedido
+      Quando selecionar o primeiro pedido
       Então deverá exibir o status

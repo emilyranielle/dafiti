@@ -1,8 +1,8 @@
 #language : pt
-@finalzizar_compras
-Funcionalidade: Finalizar pedido
+@confirmacao
+Funcionalidade: Confirmação
 
-    @cenario_confirmação
+    @verificar_confirmacao
     Cenario: Verificar confirmação
         Dado que esteja na pagina confirmação
         Quando finalizar a compra 

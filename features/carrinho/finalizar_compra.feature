@@ -1,9 +1,9 @@
 #language : pt
-@finalizar_compra
+@carrinho
 Funcionalidade: Carrinho
 
-    @cenario_finalizar_compras
-    Cenário: Finalizar compras
+    @finalizar_compra
+    Cenário: Finalizar compra
        Dado que esteja na página do carrinho
        Quando finalizar a compra
        Então deverá exibir a página endereço e pagamento

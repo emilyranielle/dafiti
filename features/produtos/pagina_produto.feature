@@ -1,6 +1,6 @@
 #language : pt
 @produtos
-Funcionalidade: Produto
+Funcionalidade: Produtos
      
      @cenario_prod
      Cenario: Pagina produto
