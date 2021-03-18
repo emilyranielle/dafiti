@@ -2,7 +2,7 @@
 @produtos
 Funcionalidade: Produtos
      
-     @cenario_prod
+     @pagina_produto
      Cenario: Pagina produto
          Dado que esteja na home
          Quando selecionar um produto 
